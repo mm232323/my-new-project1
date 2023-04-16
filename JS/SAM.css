@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #333;
+}
+.head {
+  width: 1425px;
+  height: 100px;
+  background-color: #252525;
+  position: relative;
+  left: -8px;
+  top: -16px;
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 20px 0 #827c7c70;
+}
+.sam1 {
+  width:450px;
+  height:450px;
+  border-radius:250px;
+  border:white 1px double;
+  box-shadow: 2px 2px 20px 0 rgba(255, 255, 255, 0.192);
+  animation-name:sam1;
+  animation-duration: .9s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count:infinite;
+  animation-direction: alternate;
+  position:absolute;
+  right:40px;
+  top:140px;
+}
+@keyframes sam1 {
+  from {
+  position: absolute;
+  right: 40px;
+  top: 140px;
+  }
+  to {
+  position: absolute;
+  right: 40px;
+  top: 160px;
+  }
+}
+.ma1 {
+  color: white;
+  position: absolute;
+  left: 330px;
+  text-shadow: 2px 2px 20px #ffffff57;
+  top: 136px;
+}
+.tit1 {
+  background-image: linear-gradient(to bottom, #a2a2a26e, transparent);
+  width: 501px;
+  height: 100px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  border-top-left-radius: 40px;
+  position: relative;
+  border-top-right-radius: 40px;
+  top: 109px;
+  padding-left: 20px;
+  padding-top: 9px;
+  padding-right: 17px;
+  box-shadow: 2px 2px 20px 0 #00000017;
+  text-shadow: 2px 2px 20px #ffffffab;
+  transition-duration: .5s;
+  transition-timing-function: ease;
+  left: 273px;
+}
+.tit1:hover {
+  transform: scale(1.04)
+}
+.ma2 {
+  color: white;
+  position: absolute;
+  left: 330px;
+  text-shadow: 2px 2px 20px #ffffff57;
+  top: 330px;
+}
+
+.tit2 {
+  background-image: linear-gradient(to bottom, #a2a2a26e, transparent);
+  width: 501px;
+  height: 100px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  border-top-left-radius: 40px;
+  position: relative;
+  border-top-right-radius: 40px;
+  top: 200px;
+  padding-left: 20px;
+  padding-top: 9px;
+  padding-right: 17px;
+  box-shadow: 2px 2px 20px 0 #00000017;
+  text-shadow: 2px 2px 20px #ffffffab;
+    transition-duration: .5s;
+      transition-timing-function: ease;
+  left: 273px;
+}
+.tit2:hover {
+  transform: scale(1.04)
+}
+.ma3 {
+  color: white;
+  position: absolute;
+  left: 330px;
+  text-shadow: 2px 2px 20px #ffffff57;
+  top: 518px;
+}
+
+.tit3 {
+  background-image: linear-gradient(to bottom, #a2a2a26e, transparent);
+  width: 501px;
+  height: 100px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  border-top-left-radius: 40px;
+  position: relative;
+  border-top-right-radius: 40px;
+  top: 292px;
+  padding-left: 20px;
+  padding-top: 9px;
+  padding-right: 17px;
+  box-shadow: 2px 2px 20px 0 #00000017;
+  text-shadow: 2px 2px 20px #ffffffab;
+  transition-duration: .5s;
+  transition-timing-function: ease;
+  left: 273px;
+}
+
+.tit3:hover {
+  transform: scale(1.04)
+}
+.maintit2 {
+  left: 520px;
+    top: 758px;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 20px rgba(255, 255, 255, 0.301);
+    position: absolute;
+}
+.img1 {
+    width: 400px;
+      height: 400px;
+      position: absolute;
+      left: 110px;
+      top: 886px;
+      animation-name:img1;
+      animation-duration: 1s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+.img2 {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  right: 110px;
+  top: 1086px;
+  animation-name: img2;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.img3 {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 110px;
+  top: 1532px;
+  animation-name: img2;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.img4 {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  right: 110px;
+  top: 1951px;
+  animation-name: img2;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.foot {
+    width: 500px;
+      height: 20px;
+      background-color: #333;
+      position: relative;
+      left: 0;
+      top: 1977px;
+    }

@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #333;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.head {
+  width: 1424px;
+  height: 100px;
+  background-color: #252525;
+  position: relative;
+  left: -8px;
+  top: -16px;
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 20px 0 #827c7c70;
+}
+.printingImg {
+  width: 900px;
+  height: 736px;
+  border-radius: 450px;
+  box-shadow: 2px 2px 20px 0 #00000085;
+  border: white 6px double;
+  position: relative;
+  opacity: 0%;
+  left: -90%;
+  top: 20px;
+  filter:blur(10px);
+  animation-name:PI;
+  animation-timing-function: cubic-bezier(0.78, 0.04, 0.25, 1);
+  animation-duration: 1.6s;
+  animation-fill-mode: forwards;
+  animation-delay:.03s;
+}
+@keyframes PI {
+  from {
+      position: relative;
+        opacity: 0%;
+        left: -90%;
+        top: 20px;
+        filter: blur(10px);
+  }
+  to {
+      position: relative;
+        opacity: 85%;
+        left: 17%;
+        top: 20px;
+        filter: blur(0);
+  }
+}
+p {
+color: white;
+  position: absolute;
+  font-weight: 400;
+  font-size: 61px;
+  left: 21%;
+  top: 265px;
+  text-align: center;
+  border-style: double;
+  border-radius: 62px;
+  border-color: #333;
+  border-width: 5px;
+  box-shadow: 2px 2px 20px 0 black;
+  width: 800px;
+  text-shadow: 2px 2px 20px black;
+  transform:scale(0);
+  opacity:0%;
+  filter:blur(16px);
+  animation-name:p;
+  animation-delay:1.4s;
+  animation-duration:.7s;
+  animation-timing-function: cubic-bezier(0.78, 0.04, 0.25, 1);
+  animation-fill-mode: forwards;
+}
+P::selection {
+  background-color:#252525;
+  color:rgb(39, 110, 168)
+}
+@keyframes p {
+  from {
+      transform: scale(0);
+        opacity: 0%;
+        filter: blur(23px);
+  }
+  to {
+      transform: scale(1);
+        opacity: 100%;
+        filter: blur(0);
+  }
+}
